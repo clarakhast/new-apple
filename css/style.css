@@ -1,11 +1,51 @@
+/* ***********************************
+               GENERAL
+************************************** */
+
+
 body {
     font-family: sans-serif;
 }
+
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.grey-text {
+    color:rgb(136, 136, 136);
+    margin-bottom: 1em;
+
+}
+
+.order-link {
+    padding: 1rem;
+    color: rgb(102, 187, 255);
+    text-decoration: none;
+}
+
+/* ***********************************
+              NAVBAR
+************************************** */
 
 .topnav-list {
     display: inline-block;
     width: 30%;
     vertical-align: top;
+}
+
+.menu-list {
+    padding: 1rem 0;
+    margin: 0 3rem;
+}
+
+.menu-list:not(:last-child) {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
 .topnav-list-link:hover {
@@ -26,6 +66,38 @@ header {
     opacity: 0.5;
 }
 
+  /* ***********************************
+              SEARCH
+************************************** */
+input {
+    background-image: url(../img/search.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-color:#282828;
+    border-radius: 0.5rem;
+    border:1rem solid transparent;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(255,255,255,0.2);
+    padding: 0 1.5rem;
+}
+
+ /* ***********************************
+              BUTTONS
+************************************** */
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+}
+
+/* ***********************************
+             INTRO SECTION
+************************************** */
+
 .intro {
     background-image: url(../img/iphone11pro.jpg);
     color: #FFF;
@@ -36,24 +108,36 @@ header {
     font-size: 1.5rem;
 }
 
-.intro h1{
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+/* ***********************************
+            iPHONE 11 SECTION
+************************************** */
+
+.iphone11 {
+    background-image: url(../img/iphone11.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    height:60vh;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+    margin: 1.5rem 0;
 }
 
-.intro h2{
+/* ***********************************
+            WATCH SECTION
+************************************** */
+
+.watch {
+    background-image: url(../img/applewatch.jpg);
+    background-position: center center;
+    background-repeat:no-repeat;
+    height:60vh;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+    margin: 1.2rem 0;
+}
+
+.watch p {
     font-size: 1.7rem;
-    margin-bottom: 1rem;
-}
-
-.grey-text {
-    color:rgb(136, 136, 136);
-    margin-bottom: 1em;
-
-}
-
-.intro a {
-    padding: 1rem;
-    color: rgb(102, 187, 255);
-    text-decoration: none;
 }
