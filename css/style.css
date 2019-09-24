@@ -25,3 +25,35 @@ header {
 .menu-list-link:hover {
     opacity: 0.5;
 }
+
+.intro {
+    background-image: url(../img/iphone11pro.jpg);
+    color: #FFF;
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.intro h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.intro h2{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.grey-text {
+    color:rgb(136, 136, 136);
+    margin-bottom: 1em;
+
+}
+
+.intro a {
+    padding: 1rem;
+    color: rgb(102, 187, 255);
+    text-decoration: none;
+}
