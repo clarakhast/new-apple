@@ -33,12 +33,6 @@ h3{
               NAVBAR
 ************************************** */
 
-.topnav-list {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-}
-
 .menu-list {
     padding: 1rem 0;
     margin: 0 3rem;
@@ -46,10 +40,6 @@ h3{
 
 .menu-list:not(:last-child) {
     border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.topnav-list-link:hover {
-    opacity:0.5;
 }
 
 header {
@@ -64,6 +54,10 @@ header {
 
 .menu-list-link:hover {
     opacity: 0.5;
+}
+
+.menu {
+    padding-bottom: 5rem;
 }
 
   /* ***********************************
@@ -91,7 +85,12 @@ input {
 button {
     background-color: transparent;
     border: none;
-    color: #fff;
+    color: #fff;  
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 /* ***********************************
