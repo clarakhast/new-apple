@@ -78,6 +78,11 @@ input {
     padding: 0 1.5rem;
 }
 
+.search {
+    margin:0.5em 0;
+    padding:1em;
+}
+
  /* ***********************************
               BUTTONS
 ************************************** */
@@ -90,7 +95,17 @@ button {
 
 .btn-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cart{
+    float: right;
+    padding-right: 3rem;
+}
+
+.menu-button {
+    text-align: left;
+    padding-left: 3rem;
 }
 
 /* ***********************************
