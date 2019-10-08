@@ -95,17 +95,7 @@ button {
 
 .btn-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.cart{
-    float: right;
-    padding-right: 3rem;
-}
-
-.menu-button {
-    text-align: left;
-    padding-left: 3rem;
+    grid-template-columns: 1fr 6fr 1fr;
 }
 
 /* ***********************************
